@@ -27,3 +27,20 @@ variable "default_password" {
   sensitive = true
 }
 
+# Cloudflare
+variable "cloudflare_api_key" {
+  type        = string
+  description = "Cloudflare API Key."
+  sensitive   = true
+}
+
+variable "cloudflare_account_id" {
+  type        = string
+  description = "Cloudflare Account ID where resources will be created."
+}
+
+variable "cloudflare_email" {
+  type        = string
+  description = "Cloudflare Account Email"
+}
+
