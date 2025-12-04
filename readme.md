@@ -1,14 +1,15 @@
 # Auth0 Terraform Boostrap
 Do you want to bootstrap a project with Auth0 and Terraform but don't know where to start? Look no further.
 
-This is minimal project. No need to clone this. Just copy files/config you want into your existing project and go.
+This is a minimal project. Clone or fork it, then populate `terraform.auto.tfvars` and you should be good to go.
 
 ```bash
+$ cd tf
 $ cp terraform.sample.tfvars terraform.auto.tfvars
 $ vim terraform.auto.tfvars
-$ terraform init
-$ terraform plan
-$ terraform apply
+$ make init
+$ make
+$ make apply
 ```
 
 # Where can I find more examples:
