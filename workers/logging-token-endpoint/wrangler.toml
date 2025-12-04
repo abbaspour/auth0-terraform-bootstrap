@@ -1,0 +1,6 @@
+name = "logging-token-endpoint"
+main = "src/index.ts"
+compatibility_date = "2025-12-01"
+
+[vars]
+TOKEN_ENDPOINT = "https://stg-id.singpass.gov.sg/token"
